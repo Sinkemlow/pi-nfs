@@ -1,0 +1,14 @@
+{
+  "name": "pi-nfs",
+  "version": "0.1.0",
+  "author": "Sinkemlow",
+  "summary": "Puppet profile module to share files from Raspberry Pi via NFS.",
+  "license": "Apache 2.0",
+  "source": "https://github.com/Sinkemlow/pi-nfs",
+  "project_page": "https://github.com/Sinkemlow/pi-nfs",
+  "issues_url": "https://github.com/Sinkemlow/pi-nfs/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ]
+}
+
