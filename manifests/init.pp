@@ -15,4 +15,12 @@ class pi-nfs {
     clients => '192.168.1.0/24(rw,sync,no_subtree_check)',
   }
 
+  class{'nginx': 
+  }
+
+  nginx::resource::vhost{'raspberrypi.mydevenv.org':
+    www_root => $share_dir,
+    autoindex => 'on',
+  }
+
 }
